@@ -29,7 +29,7 @@ Things get slightly more complicated when we talk about the relationship between
     <td> post_id </td>
     <td> user_id </td>
   </tr>
-  
+
   <tr>
     <td> 1 </td>
     <td> "I loved this post!" </td>
@@ -166,7 +166,7 @@ Because we've set up a join model, the interface will look almost identical. We 
 <% @user.posts.each do |post| %>
   <%= link_to post.title, post_path(post) %>
 <% end %>
-```
+```  
 
 ## Conclusion
 
